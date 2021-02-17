@@ -13,7 +13,7 @@
                 <div
                 v-else
                 v-for="currency in info"
-                :key="currency"
+                :key="currency.test"
                 class="currency">
                 {{ currency.description }}:
                 <span class="lighten">
